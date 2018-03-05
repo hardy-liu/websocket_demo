@@ -1,0 +1,6 @@
+/.idea
+.DS_Store
+_ide_helper.php
+.phpstorm.meta.php
+
+/node_modules

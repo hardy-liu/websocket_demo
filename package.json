@@ -1,0 +1,22 @@
+{
+  "name": "websocket_demo",
+  "version": "1.0.0",
+  "description": "websocket demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardy-liu/websocket_demo.git"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "hardy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardy-liu/websocket_demo/issues"
+  },
+  "homepage": "https://github.com/hardy-liu/websocket_demo#readme"
+}
