@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<h1>this is a test</h1>
+<button id="sendBtn"></button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+<script>
+    let socket = io.connect()
+        button = document.getElementById('sendBtn')
+    button.onclick = function () {
+      socket.emit('foo', 'hello')
+    }
+</script>
+</body>
+</html>
